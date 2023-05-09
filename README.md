@@ -1,27 +1,34 @@
-# ProjetAngularA1DE3
+# Subject
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+The project is to develop a front-end app for a public library that displays :
+- a navigation bar with 
+  - a link to books list
+  - a link to members list
+  - a link to loans list
+  - a contact form
 
-## Development server
+List are loaded from static json files stored in the backend.
+Each list enables a click to a detail screen, showing the details of :
+- a book
+- a member
+- an loan
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Contact form enables to enter an email and a message, with a button to send the message (an alert or a modal will be displayed with the content entered).
 
-## Code scaffolding
+# Modalities
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Project has to be done individually or by pair. 
 
-## Build
+## Technical stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Front-end will be built using Angular.
 
-## Running unit tests
+An additional CSS lib can be used for a better design, but it is not mandatory.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Deliverables
 
-## Running end-to-end tests
+The expected deliverable will be a Git repo or a zip of your source code, with all your source files.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Send the URL of the Git repo or the zip by mail to your teacher thanks to Mootse.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Please send it for date 29/05 at 00:00
