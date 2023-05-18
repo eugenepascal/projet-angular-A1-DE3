@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "isbn": "9780060935467",
+    "publisher": "Harper Perennial Modern Classics"
+  },
+  {
+    "id": 2,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "isbn": "9780141040349",
+    "publisher": "Penguin Classics"
+  },
+  {
+    "id": 3,
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": "9780451524935",
+    "publisher": "Signet Classic"
+  },
+  {
+    "id": 4,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "isbn": "9780743273565",
+    "publisher": "Scribner"
+  },
+  {
+    "id": 5,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "isbn": "9780142437247",
+    "publisher": "Penguin Classics"
+  },
+  {
+    "id": 6,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "isbn": "9780316769488",
+    "publisher": "Little, Brown and Company"
+  },
+  {
+    "id": 7,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "isbn": "9781400079988",
+    "publisher": "Vintage Classics"
+  },
+  {
+    "id": 8,
+    "title": "Ulysses",
+    "author": "James Joyce",
+    "isbn": "9780141181264",
+    "publisher": "Penguin Modern Classics"
+  },
+  {
+    "id": 9,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "isbn": "9780142437230",
+    "publisher": "Penguin Classics"
+  },
+  {
+    "id": 10,
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "isbn": "9780241968581",
+    "publisher": "Penguin"
+  }
+
+
+]

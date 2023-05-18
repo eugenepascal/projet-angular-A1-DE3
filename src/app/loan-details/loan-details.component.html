@@ -1,1 +1,36 @@
-<p>loan-details works!</p>
+<div *ngIf="loan" class="loan-detail-container">
+  <mat-card class="loan-detail-card">
+    <div class="card-content">
+      <div class="detail-content">
+        <mat-card-header>
+          <div class="header-content">
+            <mat-icon class="detail-icon">account_balance</mat-icon>
+            <mat-card-title>Loan ID: {{ loan.id }}</mat-card-title>
+          </div>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="loan-detail">
+            <mat-icon class="loan-detail-icon">book</mat-icon>
+            <span class="loan-detail-label">Book ID: </span>
+            <span class="loan-detail-info">{{ loan.bookId }}</span>
+          </div>
+          <div class="loan-detail">
+            <mat-icon class="loan-detail-icon">person</mat-icon>
+            <span class="loan-detail-label">Member ID: </span>
+            <span class="loan-detail-info">{{ loan.memberId }}</span>
+          </div>
+          <div class="loan-detail">
+            <mat-icon class="loan-detail-icon">event</mat-icon>
+            <span class="loan-detail-label">Start Date: </span>
+            <span class="loan-detail-info">{{ loan.startDate }}</span>
+          </div>
+          <div class="loan-detail">
+            <mat-icon class="loan-detail-icon">event_note</mat-icon>
+            <span class="loan-detail-label">Due Date: </span>
+            <span class="loan-detail-info">{{ loan.dueDate }}</span>
+          </div>
+        </mat-card-content>
+      </div>
+    </div>
+  </mat-card>
+</div>

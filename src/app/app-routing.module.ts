@@ -1,5 +1,6 @@
 import { RouterModule, Routes } from '@angular/router';
 
+import { HomeComponent } from './home/home.component';
 import { BooksListComponent } from './books-list/books-list.component';
 import { MembersListComponent } from './members-list/members-list.component';
 import { LoansListComponent } from './loans-list/loans-list.component';
@@ -10,7 +11,7 @@ import { LoanDetailsComponent } from './loan-details/loan-details.component';
 import { NgModule } from '@angular/core';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/books', pathMatch: 'full' },
+  { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'books', component: BooksListComponent },
   { path: 'books/:id', component: BookDetailsComponent },
   { path: 'members', component: MembersListComponent },

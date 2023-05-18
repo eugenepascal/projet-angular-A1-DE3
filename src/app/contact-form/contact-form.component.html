@@ -1,1 +1,41 @@
-<p>contact-form works!</p>
+<div class="contact-page">
+  <mat-icon class="contact-icon">contact_support</mat-icon>
+  <p>Si vous avez besoin de conseils ou si vous avez des questions, n'hésitez pas à nous contacter. Nous sommes là pour vous aider.</p>
+
+  <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
+
+    <mat-form-field class="full-width">
+      <mat-label>
+        <mat-icon>account_circle</mat-icon>
+        Prénom
+      </mat-label>
+      <input matInput id="firstName" type="text" formControlName="firstName">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>
+        <mat-icon>account_circle</mat-icon>
+        Nom
+      </mat-label>
+      <input matInput id="lastName" type="text" formControlName="lastName">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>
+        <mat-icon>email</mat-icon>
+        Email
+      </mat-label>
+      <input matInput id="email" type="email" formControlName="email">
+    </mat-form-field>
+
+    <mat-form-field class="full-width">
+      <mat-label>
+        <mat-icon>message</mat-icon>
+        Message
+      </mat-label>
+      <textarea matInput id="message" formControlName="message"></textarea>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" type="submit">Send</button>
+  </form>
+</div>

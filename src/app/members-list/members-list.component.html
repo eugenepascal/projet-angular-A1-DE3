@@ -1,1 +1,6 @@
-<p>members-list works!</p>
+<div class="member-grid">
+  <div *ngFor="let member of members" [routerLink]="['/members', member.id]" class="member-block">
+    <i class="material-icons member-icon">person</i>
+    <span>{{ member.name }}</span>
+  </div>
+</div>

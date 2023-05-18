@@ -1,1 +1,8 @@
-<p>loans-list works!</p>
+<div class="loan-grid">
+  <div *ngFor="let loan of loans" [routerLink]="['/loans', loan.id]" class="loan-block">
+    <i class="material-icons loan-icon">import_contacts</i>
+    <span>Loan ID: {{ loan.id }}</span>
+    <span>Book ID: {{ loan.bookId }}</span>
+    <span>Member ID: {{ loan.memberId }}</span>
+  </div>
+</div>

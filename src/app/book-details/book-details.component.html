@@ -1,1 +1,32 @@
-<p>book-details works!</p>
+<div *ngIf="book" class="book-detail-container">
+  <mat-card class="book-detail-card">
+    <div class="card-content">
+      <mat-icon class="presenter-icon">person_pin</mat-icon>
+      <div class="detail-content">
+        <mat-card-header>
+          <div class="header-content">
+            <mat-icon class="detail-icon">book</mat-icon>
+            <mat-card-title>{{ book.title }}</mat-card-title>
+          </div>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="book-detail">
+            <mat-icon class="book-detail-icon">person</mat-icon>
+            <span class="book-detail-label">Author: </span>
+            <span class="book-detail-info">{{ book.author }}</span>
+          </div>
+          <div class="book-detail">
+            <mat-icon class="book-detail-icon">bookmarks</mat-icon>
+            <span class="book-detail-label">ISBN: </span>
+            <span class="book-detail-info">{{ book.isbn }}</span>
+          </div>
+          <div class="book-detail">
+            <mat-icon class="book-detail-icon">business</mat-icon>
+            <span class="book-detail-label">Publisher: </span>
+            <span class="book-detail-info">{{ book.publisher }}</span>
+          </div>
+        </mat-card-content>
+      </div>
+    </div>
+  </mat-card>
+</div>

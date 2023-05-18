@@ -1,0 +1,15 @@
+.home {
+  text-align: center;
+  color: white;
+  background-color: #F7F7F7;
+}
+
+.home img {
+  max-width: 100%;
+  height: auto;
+}
+
+.home h1, .home p {
+  background-color: white;
+  padding: 20px;
+}
