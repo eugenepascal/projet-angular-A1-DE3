@@ -32,3 +32,32 @@ The expected deliverable will be a Git repo or a zip of your source code, with a
 Send the URL of the Git repo or the zip by mail to your teacher thanks to Mootse.
 
 Please send it for date 29/05 at 00:00
+
+## Yaro Eugène & Matthieu Remond--DE3
+
+# Online Library
+
+This project is an online library web application developed with Angular. It allows users to search for books, view member information, and manage book loans.
+
+## Features
+
+- Display a list of available books
+- View details of a specific book
+- Display a list of library members
+- View details of a specific member
+- Manage book loans with start and end dates
+- Contact form to send messages to the library
+
+## Prerequisites
+
+- Node.js (version X.X.X)
+- Angular CLI (version X.X.X)
+
+## Installation
+
+1. Clone this code repository to your local machine.
+2. Open a terminal window and navigate to the project directory.
+3. Run the command `npm install` to install the dependencies.
+4. Run the command `ng serve` to start the development server.
+5. Open your browser and go to `http://localhost:4200` to see the running application.
+
